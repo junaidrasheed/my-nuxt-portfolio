@@ -19,6 +19,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
 
   nitro: {
+    // Static output for GitHub Pages: adds .nojekyll + a 404.html SPA fallback.
+    preset: 'github-pages',
     prerender: {
       routes: [
         '/'
