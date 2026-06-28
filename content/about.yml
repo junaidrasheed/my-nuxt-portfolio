@@ -1,0 +1,36 @@
+title: About Me
+description: Learn more about Junaid Rasheed, a Lahore-based Principal Engineer and Software Architect—my approach to system design, engineering leadership, and building architecture and teams that scale while staying hands-on in the code.
+content: |
+  Hi, I'm **Junaid Rasheed**, a Principal Engineer and Software Architect based in Lahore, Pakistan. Over the past 8+ years I've moved from writing features to shaping the systems and teams behind them—designing architecture, setting technical direction, and leading engineers—while staying hands-on in the codebase.
+
+  My path began at **Punjab University College of Information Technology**, where I earned a degree in Computer Science. Since then I've worked across the entire web stack, and increasingly at the layer above it: making the architectural decisions, defining the standards, and mentoring the people that determine whether a codebase scales gracefully or buckles under its own weight.
+
+  ### How I Work
+
+  I believe the most consequential engineering decisions are made early—in how a system is structured, where its boundaries sit, and what standards a team holds itself to. I start by understanding the problem deeply—business goals, technical constraints, and user needs—and then translate it into architecture that's maintainable, reliable, and ready to grow.
+
+  I lead from close to the code. Whether I'm setting up a new system's architecture, reviewing critical paths, untangling a performance bottleneck, or pairing with an engineer, I stay grounded in the day-to-day craft. The best technical leadership, in my experience, comes from people who still ship.
+
+  ### What Drives Me
+
+  I'm most engaged when I'm solving hard system-design problems, watching applications scale to serve thousands of users, and seeing the engineers around me grow. Driving 40–60% performance gains, designing for scale, and building teams that write excellent code is the work I find most rewarding. I'm a continuous learner and stay current with emerging technologies and patterns.
+
+  ### My Expertise
+
+  - **Architecture & System Design**: Scalable system design, API and service architecture, technical direction
+  - **Engineering Leadership**: Leading and mentoring teams, code reviews, setting engineering standards
+  - **Full Stack Development**: Vue.js, React, Nuxt.js, Ruby on Rails, Laravel, Python
+  - **Cloud & DevOps**: AWS (EC2, S3, Lambda, RDS), Docker, CI/CD pipelines
+  - **Databases**: PostgreSQL, MongoDB, MySQL
+  - **Performance Optimization**: Bottleneck identification, scalable front-end and back-end strategies
+
+  ### Beyond Coding
+
+  When I'm not designing systems or working with my team, you might find me contributing to open-source projects, exploring new technologies, or sharing what I've learned with the developer community. I'm especially drawn to system design, DevOps, and performance engineering.
+
+  Thanks for stopping by. Feel free to explore my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+images:
+  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: My coffee workspace
+  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: My trip to Tokyo

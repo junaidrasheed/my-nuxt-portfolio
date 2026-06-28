@@ -1,0 +1,285 @@
+seo:
+  title: "Junaid Rasheed - Principal Engineer & Software Architect"
+  description: "Welcome to my portfolio! I'm Junaid Rasheed, a Principal Engineer and Software Architect with 8+ years of experience. Based in Lahore, Pakistan, I lead engineering teams and design scalable systems across Vue.js, React, Ruby on Rails, and modern cloud infrastructure—while staying hands-on in the code."
+title: "Hey, I'm Junaid Rasheed, Principal Engineer & Software Architect"
+description: "I lead engineering teams and architect scalable, high-performance web applications—while staying hands-on in the code. Based in Lahore, Pakistan, turning complex problems into clean architecture, clear technical direction, and teams that ship."
+hero:
+  images:
+    - src: /hero/random-1.avif
+      alt: Random Image 1
+    - src: /hero/random-2.avif
+      alt: Random Image 2
+    - src: /hero/random-3.avif
+      alt: Random Image 3
+    - src: /hero/random-4.avif
+      alt: Random Image 4
+    - src: /hero/random-5.avif
+      alt: Random Image 5
+    - src: /hero/random-6.avif
+      alt: Random Image 6
+    - src: /hero/random-7.avif
+      alt: Random Image 7
+    - src: /hero/random-8.avif
+      alt: Random Image 8
+    - src: /hero/random-9.avif
+      alt: Random Image 9
+about:
+  title: "Architecting Systems, Leading Teams"
+  description: |
+    I'm a Principal Engineer and Software Architect with 8+ years of experience leading engineering teams and designing the systems behind scalable, high-performance web applications. My focus is on the decisions that shape a product early—system architecture, technical direction, and the engineering standards that let teams move fast without piling up debt.
+    I lead by staying close to the code: setting up architecture, reviewing critical paths, mentoring engineers, and shipping alongside the team across Vue.js, React, Ruby on Rails, and modern cloud infrastructure. I care most about building systems—and the teams behind them—that scale cleanly under real-world pressure.
+experience:
+  title: Work Experience
+  items:
+    - position: "Principal Software Developer at"
+      date: "July 2023 - Present"
+      company:
+        name: Strategic Systems International
+        logo: "/avatars/ssi-logo.png"
+        url: "https://www.linkedin.com/company/strategic-systems-international"
+        color: "#1F2937"
+    - position: "Senior Software Developer at"
+      date: "July 2019 - June 2023"
+      company:
+        name: Strategic Systems International
+        logo: "/avatars/ssi-logo.png"
+        url: "https://www.linkedin.com/company/strategic-systems-international"
+        color: "#1F2937"
+    - position: "Software Developer at"
+      date: "August 2017 - June 2019"
+      company:
+        name: Strategic Systems International
+        logo: "/avatars/ssi-logo.png"
+        url: "https://www.linkedin.com/company/strategic-systems-international"
+        color: "#1F2937"
+skills:
+  title: What I bring to the table
+  description: A diverse set of skills that help me design, develop and deliver impactful digital products.
+  categories:
+    - name: Front-end Stack
+      items:
+        - name: Vue.js
+          icon: i-simple-icons-vuedotjs
+          description: Building reactive, component-driven UIs
+          color: "#42B883"
+        - name: React.js
+          icon: i-simple-icons-react
+          description: Building scalable UI components
+          color: "#61DAFB"
+        - name: Nuxt.js
+          icon: i-simple-icons-nuxtdotjs
+          description: Full-stack apps with SSR & SSG
+          color: "#00DC82"
+        - name: Vite
+          icon: i-simple-icons-vite
+          description: Lightning-fast build tooling
+          color: "#646CFF"
+        - name: Redux
+          icon: i-simple-icons-redux
+          description: Predictable app state at scale
+          color: "#764ABC"
+        - name: Pinia
+          icon: i-simple-icons-pinia
+          description: Intuitive Vue state management
+          color: "#FFD859"
+        - name: Tailwind CSS
+          icon: i-simple-icons-tailwindcss
+          description: Crafting responsive, polished design
+          color: "#06B6D4"
+        - name: Node.js
+          icon: i-simple-icons-nodedotjs
+          description: Fast, scalable server-side apps
+          color: "#5FA04E"
+        - name: Tailwind UI
+          icon: i-lucide-layout-template
+          description: Accessible, prebuilt UI components
+          color: "#38BDF8"
+        - name: Figma
+          icon: i-simple-icons-figma
+          description: Designing & prototyping interfaces
+          color: "#F24E1E"
+    - name: Back-end Stack
+      items:
+        - name: Ruby on Rails
+          icon: i-simple-icons-rubyonrails
+          description: Robust back-end architecture
+          color: "#CC0000"
+        - name: Laravel (PHP)
+          icon: i-simple-icons-laravel
+          description: Elegant PHP web applications
+          color: "#FF2D20"
+        - name: Python
+          icon: i-simple-icons-python
+          description: Automation, scripting & APIs
+          color: "#3776AB"
+    - name: Databases
+      items:
+        - name: PostgreSQL
+          icon: i-simple-icons-postgresql
+          description: Reliable relational data modeling
+          color: "#4169E1"
+        - name: MySQL
+          icon: i-simple-icons-mysql
+          description: Battle-tested relational storage
+          color: "#4479A1"
+        - name: Indexed DB
+          icon: i-lucide-database
+          description: Client-side browser storage
+          color: "#F59E0B"
+        - name: MongoDB
+          icon: i-simple-icons-mongodb
+          description: Flexible NoSQL data storage
+          color: "#47A248"
+    - name: Testing
+      items:
+        - name: Jest
+          icon: i-simple-icons-jest
+          description: Confident unit & integration tests
+          color: "#C21325"
+    - name: Integrations
+      items:
+        - name: Stripe
+          icon: i-simple-icons-stripe
+          description: Seamless payment integrations
+          color: "#635BFF"
+        - name: Open AI
+          icon: i-simple-icons-openai
+          description: AI-powered product features
+          color: "#10A37F"
+        - name: Google Analytics
+          icon: i-simple-icons-googleanalytics
+          description: Data-driven usage insights
+          color: "#E37400"
+        - name: Firebase
+          icon: i-simple-icons-firebase
+          description: Realtime data & auth services
+          color: "#FFCA28"
+        - name: Elasticsearch
+          icon: i-simple-icons-elasticsearch
+          description: Fast, full-text search at scale
+          color: "#43A047"
+        - name: Typesense
+          icon: i-lucide-search
+          description: Typo-tolerant instant search
+          color: "#EC4899"
+    - name: CI/CD
+      items:
+        - name: Git
+          icon: i-simple-icons-git
+          description: Version control & collaboration
+          color: "#F05032"
+        - name: Docker
+          icon: i-simple-icons-docker
+          description: Containerized, portable deployments
+          color: "#2496ED"
+        - name: Vercel
+          icon: i-simple-icons-vercel
+          description: Effortless front-end deployments
+    - name: DevOps (AWS)
+      items:
+        - name: EC2
+          icon: i-lucide-server
+          description: Scalable compute instances
+          color: "#FF9900"
+        - name: ECR
+          icon: i-lucide-container
+          description: Managed container registry
+          color: "#FF9900"
+        - name: S3
+          icon: i-lucide-hard-drive
+          description: Durable object storage
+          color: "#FF9900"
+        - name: Lambda
+          icon: i-lucide-zap
+          description: Serverless function execution
+          color: "#FF9900"
+        - name: RDS
+          icon: i-lucide-database
+          description: Managed relational databases
+          color: "#FF9900"
+    - name: Others
+      items:
+        - name: API Development
+          icon: i-lucide-webhook
+          description: Designing robust REST APIs
+          color: "#6366F1"
+        - name: Code Review
+          icon: i-lucide-git-pull-request
+          description: Raising code quality & standards
+          color: "#8B5CF6"
+        - name: Product Management
+          icon: i-lucide-target
+          description: Aligning delivery with goals
+          color: "#14B8A6"
+        - name: Performance Optimization
+          icon: i-lucide-gauge
+          description: Optimizing for speed and great UX
+          color: "#22C55E"
+testimonials:
+  - quote: "Junaid demonstrates exceptional analytical skills and consistently approaches coding with a strong focus on optimization and efficiency. His technical mindset and solutions-oriented approach make him a valuable developer."
+    author:
+      name: 'M Awais Sarwar'
+      description: 'CEO @ Bitsclan'
+      avatar:
+        src: '/avatars/awais-sarwar.jpeg'
+  - quote: "I had the privilege of working with Junaid at SSI. He is proactive, result-oriented, technically sound, and always ready to dedicate his full energy and time to deliver quality work. His impressive background and profile make him a great asset to any company."
+    author:
+      name: 'Muhammad Bilal Anjum'
+      description: 'Software QA Engineer | Automation & Testing Expert'
+      avatar:
+        src: '/avatars/bilal-anjum.jpeg'
+  - quote: "Junaid is among the best developers I've ever worked with. He's hardworking, broad-minded, and forward-thinking. Intelligent, ambitious, energetic, and a proactive perfectionist—his desire for proficiency and continuous learning makes him invaluable to any team. Working with Junaid Rasheed is a signature of success."
+    author:
+      name: 'Haider Ali Anjum'
+      description: 'Senior Full-Stack Engineer | JavaScript | React | GraphQL'
+      avatar:
+        src: '/avatars/haider-ali.jpeg'
+  - quote: "Junaid is an excellent programmer and problem solver with strong leadership qualities. His deep experience in web technologies and his professional approach make him exceptional. He's also a quick learner who consistently delivers quality work."
+    author:
+      name: 'Asad Jamil'
+      description: 'iOS | React Native | Flutter Developer'
+      avatar:
+        src: '/avatars/asad-jamil.jpeg'
+blog:
+  title: "Latest Articles"
+  description: "Some of my recent thoughts"
+faq:
+  title: Frequently Asked Questions
+  description: Answers to common questions about my work and expertise.
+  categories:
+    - title: Services & Technical Expertise
+      questions:
+        - label: What services do you offer?
+          content: |
+            As a Principal Engineer and Software Architect, I offer end-to-end technical leadership and development services. This includes system architecture and technical direction, front-end development with Vue.js/React/Nuxt.js, back-end development with Ruby on Rails/Laravel/Python, database design and optimization, cloud infrastructure setup (AWS), CI/CD pipeline implementation, API development, and performance optimization. I also lead and mentor engineering teams, run code reviews, and provide product and technical strategy guidance.
+        - label: What is your development process like?
+          content: |
+            My process is collaborative and follows best practices: Requirements Analysis → Architecture & Planning → Development → Testing & Code Review → Deployment & Optimization → Ongoing Support. I emphasize clean code, scalability, performance optimization, and maintaining high test coverage. I leverage version control (Git), containerization (Docker), and CI/CD pipelines to ensure reliable deployments.
+        - label: What tech stack do you specialize in?
+          content: |
+            I specialize in modern web development with Vue.js, React, and Nuxt.js for front-end, Ruby on Rails and Laravel for back-end, PostgreSQL and MongoDB for databases, and AWS for cloud infrastructure. I'm also proficient in Python, Node.js, and various integrations like Stripe, Firebase, and Elasticsearch. I stay current with industry best practices and emerging technologies.
+        - label: Do you work with startups and enterprises?
+          content: |
+            Absolutely! I have extensive experience working with both startups and established companies. For startups, I help build MVPs and scalable architectures from scratch. For enterprises, I lead optimization initiatives, architectural improvements, and team mentoring. I adapt my approach based on project stage and organizational needs.
+    - title: Projects & Engagement
+      questions:
+        - label: What types of projects do you take on?
+          content: |
+            I work on a wide variety of projects: real-time data dashboards, financial trading platforms, healthcare management systems, APIs, e-commerce platforms, analytics tools, and custom business applications. I'm particularly interested in performance-critical applications, complex system architectures, and projects requiring AWS infrastructure expertise.
+        - label: How long does a typical project take?
+          content: |
+            Project timelines vary based on scope and complexity. Small projects (features or component work) might take 2-4 weeks. Medium projects (new applications or major features) typically take 2-3 months. Larger, complex systems can take 3-6 months or more. I always provide detailed timeline estimates after the discovery phase.
+        - label: What about maintenance and ongoing support?
+          content: |
+            Yes, I offer ongoing support and maintenance services. This includes bug fixes, feature enhancements, performance optimization, security updates, and infrastructure maintenance. I provide both hourly support and monthly retainer options based on your needs.
+    - title: About Me & Work Style
+      questions:
+        - label: What do you enjoy most about development?
+          content: |
+            I love solving complex technical problems and seeing applications scale to serve thousands of users. The most rewarding part is optimizing performance—achieving 40-60% improvements in application speed is incredibly satisfying. I'm also passionate about mentoring developers and fostering a culture of clean, maintainable code and engineering excellence.
+        - label: How do you approach code quality?
+          content: |
+            Code quality is paramount. I conduct regular code reviews, enforce best practices, maintain high test coverage with Jest and other testing frameworks, and use linting and static analysis tools. I believe that clean, well-documented code reduces technical debt and makes future development faster and safer.
+        - label: What are your hobbies outside of work?
+          content: |
+            When I'm not coding, I enjoy contributing to open-source projects, exploring new technologies and frameworks, and sharing knowledge with the developer community. I'm also interested in DevOps, system design, and performance optimization techniques. Continuous learning keeps me sharp in this fast-evolving field.

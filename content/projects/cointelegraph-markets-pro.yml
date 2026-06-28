@@ -1,0 +1,21 @@
+title: Cointelegraph Markets Pro
+tagline: Institutional-grade crypto market data in a simple, accessible dashboard.
+description: A partner application built in collaboration with The Tie and Cointelegraph — a simple, easy-to-use dashboard powered by the same technology and data used by leading institutional investors.
+icon: C
+owned:
+  - icon: i-lucide-bell
+    label: In-app notification service
+  - icon: i-lucide-graduation-cap
+    label: Academy content tool
+  - icon: i-lucide-cloud
+    label: AWS infrastructure setup
+  - icon: i-lucide-line-chart
+    label: Favorite-asset tracking
+achievements:
+  - Achieved a 100% successful delivery rate for in-app notifications
+  - Led an Academy tool serving 100+ articles, tutorials and AMAs
+  - Ensured 99.9% availability under heavy traffic conditions
+  - Surfaced real-time updates on users' favorite assets
+tech: ["Vue", "Laravel", "Redis", "PostgreSQL", "AWS", "Tailwind CSS"]
+liveUrl: "https://pro.cointelegraph.com"
+date: "2022"

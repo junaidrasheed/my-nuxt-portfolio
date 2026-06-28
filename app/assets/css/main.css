@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-serif: 'Instrument Serif', serif;
+
+  /* Primary accent — Tangerine Dream (#E29578) deepening for hover/active */
+  --color-tangerine-50: #fcf1ec;
+  --color-tangerine-100: #f9ddd1;
+  --color-tangerine-200: #f3c9b6;
+  --color-tangerine-300: #edb398;
+  --color-tangerine-400: #e7a486;
+  --color-tangerine-500: #e29578;
+  --color-tangerine-600: #cd7a5c;
+  --color-tangerine-700: #b25f43;
+  --color-tangerine-800: #8f4c36;
+  --color-tangerine-900: #743f2e;
+  --color-tangerine-950: #3f2017;
+
+  /* Neutral — Alice Blue (#EDF6F9) through Pearl Aqua (#83C5BE) to Stormy Teal (#006D77) */
+  --color-lagoon-50: #e2eff2;
+  --color-lagoon-100: #d3e8ea;
+  --color-lagoon-200: #bcdcdd;
+  --color-lagoon-300: #9ccfca;
+  --color-lagoon-400: #83c5be;
+  --color-lagoon-500: #59a39c;
+  --color-lagoon-600: #3f8c8d;
+  --color-lagoon-700: #2a7d83;
+  --color-lagoon-800: #15737c;
+  --color-lagoon-900: #006d77;
+  --color-lagoon-950: #00474e;
+}
+
+:root {
+  --ui-container: var(--container-4xl);
+
+  /* Light canvas: Alice Blue (sits one step lighter than lagoon-50 for depth) */
+  --ui-bg: #edf6f9;
+
+  ::selection {
+    color: #006d77;
+    background-color: #f3c9b6;
+  }
+}
+
+.dark {
+  /* Deep teal-black canvas; Stormy Teal lifted to the card/elevated surface */
+  --ui-bg: #003b41;
+  --ui-bg-muted: #00565e;
+  --ui-bg-elevated: #006d77;
+  --ui-bg-accented: #15737c;
+  --ui-text-highlighted: #edf6f9;
+
+  /* Lighten muted/dimmed text — Pearl Aqua is too low-contrast on the teal canvas */
+  --ui-text-muted: #b6dad4;
+  --ui-text-dimmed: #8ec9c3;
+
+  ::selection {
+    color: #edf6f9;
+    background-color: #8f4c36;
+  }
+}

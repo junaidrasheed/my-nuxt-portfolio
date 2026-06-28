@@ -1,0 +1,21 @@
+title: Frosty Metrics
+tagline: Public analytics dashboard for the Avalanche ecosystem.
+description: Developed in partnership with Avalanche, this public dashboard leverages Avalanche-specific data from The Tie to create innovative tools like Chill Factor, with comprehensive metrics on digital assets and upcoming projects across the ecosystem.
+icon: F
+owned:
+  - icon: i-lucide-compass
+    label: Design process leadership
+  - icon: i-lucide-snowflake
+    label: Chill Factor metric tool
+  - icon: i-lucide-zap
+    label: Performance optimization
+  - icon: i-lucide-search
+    label: Bottleneck identification
+achievements:
+  - Reduced the project timeline by 30% guiding the team to on-time delivery
+  - Identified 25+ resource-intensive issues, boosting performance by 40%
+  - Cut application load time by 50% through a code optimization drive
+  - Shipped innovative ecosystem tools like Chill Factor
+tech: ["Vue", "Nuxt.js", "Redis", "AWS", "Vercel", "Tailwind CSS"]
+liveUrl: "https://frostymetrics.com"
+date: "2021"

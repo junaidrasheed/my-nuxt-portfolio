@@ -1,0 +1,24 @@
+title: The Tie — Terminal
+tagline: The most comprehensive data platform for institutions in digital assets.
+description: I joined during a major platform redesign and was responsible for rebuilding critical user-facing experiences while improving system stability and performance across the institutional crypto data suite.
+icon: T
+owned:
+  - icon: i-lucide-layout-dashboard
+    label: Customizable dashboard tool
+  - icon: i-lucide-bell-ring
+    label: Multi-channel alerting framework
+  - icon: i-lucide-rocket
+    label: Frontend migration to Nuxt.js
+  - icon: i-lucide-gauge
+    label: Application-wide performance
+  - icon: i-lucide-users
+    label: Code reviews & team mentoring
+achievements:
+  - Migrated the frontend to a standalone Nuxt.js application
+  - Improved system stability and performance by up to 60%
+  - Built the dashboard tool that became the platform's top feature
+  - Boosted alert delivery rate by over 400%
+  - Led a team of developers through reviews and daily engagement
+tech: ["Vue", "Nuxt.js", "Laravel", "TypeScript", "PostgreSQL", "Nuxt UI", "Tailwind CSS"]
+liveUrl: "https://terminal.thetie.io"
+date: "2023"

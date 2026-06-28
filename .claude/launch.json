@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Nuxt Dev",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["dev"],
+      "autoPort": true,
+      "env": {
+        "PATH": "/Users/junaidrasheed/.nvm/versions/node/v22.21.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
+    },
+    {
+      "name": "Nuxt Build",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["build"],
+      "env": {
+        "PATH": "/Users/junaidrasheed/.nvm/versions/node/v22.21.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
+    },
+    {
+      "name": "Nuxt Preview",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["preview"],
+      "autoPort": true,
+      "env": {
+        "PATH": "/Users/junaidrasheed/.nvm/versions/node/v22.21.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
+    }
+  ]
+}
