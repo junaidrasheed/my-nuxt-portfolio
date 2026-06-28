@@ -1,62 +1,86 @@
-# Nuxt Portfolio Template
+# Junaid Rasheed — Portfolio
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+My personal portfolio and blog: a place to share what I work on as a Principal Engineer and Software Architect — projects, writing, talks, and the skills behind them.
 
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
+Built with [Nuxt 4](https://nuxt.com), [Nuxt UI](https://ui.nuxt.com), [Nuxt Content](https://content.nuxt.com), and [Tailwind CSS v4](https://tailwindcss.com).
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+## Tech Stack
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-    <img alt="Nuxt Portfolio Template" src="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-  </picture>
-</a>
+- **Framework:** Nuxt 4 (Vue 3)
+- **UI:** Nuxt UI v4 + Tailwind CSS v4
+- **Content:** Nuxt Content v3 (Markdown + YAML, SQLite-backed)
+- **Images:** Nuxt Image
+- **Animation:** Motion for Vue
+- **SEO:** Nuxt OG Image
+- **Tooling:** ESLint, TypeScript / `vue-tsc`
+- **Package manager:** pnpm
 
-## Quick Start
+## Project Structure
 
-```bash [Terminal]
-npm create nuxt@latest -- -t ui/portfolio
 ```
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=portfolio&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fportfolio&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fportfolio-dark.png&demo-url=https%3A%2F%2Fportfolio-template.nuxt.dev%2F&demo-title=Nuxt%20Portfolio%20Template&demo-description=A%20sleek%20portfolio%20template%20to%20showcase%20your%20work%2C%20skills%20and%20blog%20powered%20by%20Nuxt%20Content.)
+app/
+  components/      # UI and landing-page sections
+  layouts/         # Default layout
+  pages/           # Routes: index, about, projects, skills, blog/
+  utils/           # Shared helpers (e.g. nav links)
+  app.config.ts    # Theme colors and global config
+  assets/css/      # Tailwind entry + theme tokens
+content/
+  index.yml        # Landing page: hero, about, experience, FAQ, skills
+  about.yml        # About page
+  projects.yml     # Projects listing
+  speaking.yml     # Talks / speaking
+  blog.yml         # Blog index metadata
+  blog/            # Blog posts (Markdown)
+content.config.ts  # Nuxt Content collection schemas
+```
 
 ## Setup
 
-Make sure to install the dependencies:
+Install dependencies:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the dev server on `http://localhost:3000`:
 
 ```bash
 pnpm dev
 ```
 
+## Editing Content
+
+Most of the site is driven by content files — no component changes needed for routine updates:
+
+- **Landing page** (hero, about, experience, FAQ, skills): `content/index.yml`
+- **Blog posts:** add a Markdown file under `content/blog/`
+- **Projects / speaking / about page:** the corresponding `content/*.yml`
+
+Theme colors live in `app/assets/css/main.css` (custom color ramps) and `app/app.config.ts` (`ui.colors`). A change to `ui.colors` requires a dev server restart to take effect.
+
+## Quality Checks
+
+```bash
+pnpm lint        # Lint
+pnpm lint:fix    # Lint and auto-fix
+pnpm typecheck   # Type-check
+```
+
 ## Production
 
-Build the application for production:
+Build for production:
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+Preview the production build locally:
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+See the [Nuxt deployment docs](https://nuxt.com/docs/getting-started/deployment) for hosting options.
